@@ -25,6 +25,7 @@ linux
 linux-firmware
 linux-lts
 mako
+man-db
 mpv
 nano
 nautilus

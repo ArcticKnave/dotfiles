@@ -7,3 +7,5 @@ Lists all packages installed
 Downloads all packages listed
     cat paru.lst | xargs paru -S --needed --noconfirm
 
+## Change shell
+chsh -s $(which zsh)
