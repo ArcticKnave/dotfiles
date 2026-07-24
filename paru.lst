@@ -1,13 +1,16 @@
+adw-gtk-theme
 amd-ucode
 base
 base-devel
 blender
 bluez
 bluez-utils
+brightnessctl
 btop
 cups
 cups-pk-helper
 darktable
+debugedit
 discord
 efibootmgr
 ffmpegthumbnailer
@@ -18,6 +21,7 @@ ghostty
 git
 gst-plugin-pipewire
 htop
+intel-ucode
 inxi
 krita
 libpulse
@@ -28,7 +32,6 @@ mako
 man-db
 mpv
 nano
-nautilus
 ncdu
 neovim
 networkmanager
@@ -48,9 +51,12 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+podman
+podman-desktop
 power-profiles-daemon
 prismlauncher
 qt6ct
+rofi
 sddm
 smartmontools
 sof-firmware
@@ -71,8 +77,10 @@ trash-cli
 tumbler
 ufw
 vim
+vulkan-nouveau
 vulkan-radeon
 waybar
+wev
 wget
 wireplumber
 wlr-randr
@@ -80,6 +88,7 @@ xdg-desktop-portal-gnome
 xdg-utils
 xf86-video-amdgpu
 xf86-video-ati
+xf86-video-nouveau
 xorg-xwayland
 xwayland-satellite
 yazi
