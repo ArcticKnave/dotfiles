@@ -58,6 +58,7 @@ podman-desktop
 power-profiles-daemon
 prismlauncher
 qt6ct
+ripgrep
 rofi
 sddm
 smartmontools
@@ -85,6 +86,7 @@ waybar
 wev
 wget
 wireplumber
+wl-clipboard
 wlr-randr
 xdg-desktop-portal-gnome
 xdg-utils
