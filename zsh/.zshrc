@@ -32,7 +32,7 @@ unsetopt prompt_sp # don't autoclean blanklines
 HISTSIZE="100000"
 SAVEHIST="100000"
 
-HISTFILE="./.config/.zsh_history"
+HISTFILE="~/.zsh_history"
 HISTCONTROL=ignoreboth # consecutive duplicates & commands starting with space are not saved
 
 # fzf setup
