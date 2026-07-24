@@ -5,6 +5,8 @@ autoload -U colors && colors
 alias v="nvim"
 alias c="clear"
 alias ls='ls --color=auto --group-directories-first'
+alias cat='bat'
+alias man='man -P "bat -p"'
 
 # cmp opts
 zstyle ':completion:*' menu select # tab opens cmp menu
