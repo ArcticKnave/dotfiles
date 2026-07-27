@@ -109,6 +109,13 @@ output "HDMI-A-1" {
     position x=0 y=0
 }
 
+environment {
+	QT_QPA_PLATFORMTHEME "qt6ct"
+    XCURSOR_THEME "Bibata-Modern-Ice"
+    XCURSOR_SIZE "24"
+    GTK_CURSOR_THEME "Bibata-Modern-Ice"
+}
+
 cursor {
     xcursor-theme "Bibata-Modern-Ice"
     xcursor-size 24
@@ -573,9 +580,6 @@ binds {
 
 // Noctalia settings
 
-environment {
-	QT_QPA_PLATFORMTHEME "qt6ct"
-}
 
 debug {
   // Allows notification actions and window activation from Noctalia.
