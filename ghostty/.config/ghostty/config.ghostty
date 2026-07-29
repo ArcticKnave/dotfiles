@@ -10,4 +10,4 @@ cursor-style-blink = false
 
 # UX
 confirm-close-surface = false
-copy-on-select = false
+copy-on-select = true
