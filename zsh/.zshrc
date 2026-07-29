@@ -48,3 +48,14 @@ fi
 NEWLINE=$'\n'
 # PROMPT="${NEWLINE}%K{#2E3440}%F{#E5E9F0}$(date +%_I:%M%P) %K{#3b4252}%F{#ECEFF4} %n@%m %K{#4c566a} %~ %f%k ❯ " # nord theme
 PROMPT="${NEWLINE}%K{#3b4252}%F{#ECEFF4} %n@%m %K{#4c566a} %~ %f%k ❯ " # nord theme
+
+# Now y opens yazi, and quitting with q drops you back in the shell at whatever directory you ended up in.
+# This is the closest a terminal gets to a "Reveal in Finder, then jump there in shell" workflow.
+function y() {
+    local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+    yazi "$@" --cwd-file="$tmp"
+    if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+        builtin cd -- "$cwd"
+    fi
+    rm -f -- "$tmp"
+}
